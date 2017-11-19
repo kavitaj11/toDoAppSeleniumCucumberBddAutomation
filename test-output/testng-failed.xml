@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="false">
+    <classes>
+      <class name="toDoAppTestAutomation.ToDoAppTests">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="test_addTask_FieldValidation" invocation-numbers="0 4 5"/>
+          <include name="beforeMethod"/>
+          <include name="test_addSubTask_HeaderValidation"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
